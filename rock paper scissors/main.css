@@ -1,0 +1,23 @@
+.container-1{
+    border: 2px solid black;
+    font-weight: bold;
+    text-align: center;
+}
+.flex-container{
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.flex-container img:hover{
+    box-shadow: 2px 2px 4px 3px rgba(38,16,117,0.97);
+    -webkit-box-shadow: 2px 2px 4px 3px rgba(38,16,117,0.97);
+    -moz-box-shadow: 2px 2px 4px 3px rgba(38,16,117,0.97);
+}
+#flex-box{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
